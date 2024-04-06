@@ -3,7 +3,7 @@
 ## Install using pip
 
 ```
-pip install download_tiktok_no_watermark
+pip install download-tiktok-no-watermark
 ```
 
 ## Using it in your project
