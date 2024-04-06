@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: download_tiktok_no_watermark
+Version: 0.2.6
+Summary: Download TikTok videos no watermark
+Home-page: https://github.com/jakeadelman/download_tiktok_no_watermark
+Author: Jacob Adelman
+Author-email: jacobzadelman@gmail.com
+License: BSD 2-clause
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: colorama==0.4.6
+Requires-Dist: Requests==2.31.0
+Requires-Dist: tls_client==1.0.1
+Requires-Dist: js2py
