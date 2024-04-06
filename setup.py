@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='download_tiktok_no_watermark',
-    version='0.2.1',    
+    version='0.2.2',    
     description='Download TikTok videos no watermark',
     url='https://github.com/jakeadelman/download_tiktok_no_watermark',
     author='Jacob Adelman',
