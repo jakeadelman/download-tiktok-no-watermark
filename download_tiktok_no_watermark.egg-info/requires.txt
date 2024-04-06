@@ -1,0 +1,5 @@
+beautifulsoup4==4.12.3
+colorama==0.4.6
+Requests==2.31.0
+tls_client==1.0.1
+js2py
