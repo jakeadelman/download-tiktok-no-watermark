@@ -81,7 +81,6 @@ class SnapTikReversed:
                         }
                         return evalFunction(h,u,n,t,e,r)
 
-                        console.log(evalFunction(h, u, n, t, e, r));
                         }
                         """
 
@@ -170,8 +169,7 @@ def download(video_url, output_name, output_dir):
     token = sn.get_token()
     my_vid = sn.send_request(video=video_url)
     my_vid1= sn.decode(variable=my_vid)
-    print(my_vid1)
-    sp = BeautifulSoup(my_vid1)
+    sp = BeautifulSoup(my_vid1, features='lxml')
 
     d = 0
     for a in sp.find_all('a', href=True):
